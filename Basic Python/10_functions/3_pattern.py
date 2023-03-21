@@ -13,12 +13,12 @@ if input is 4 then it should print
 ****
 
 """
-import sys
+
 def print_pattern(num:int):
     for i in range(num):
         for j in range(i+1):
-            sys.stdout.write('*')
+            print('*',end="")
         print()
 
-
-print_pattern(3)
+num = int(input("Enter a Number : "))
+print_pattern(num)

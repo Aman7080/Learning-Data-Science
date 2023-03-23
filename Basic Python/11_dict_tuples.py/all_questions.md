@@ -8,8 +8,10 @@
     |India|136|
     |USA|32|
     |Pakistan|21|
+
     1. Using above create a dictionary of countries and its population
     2. Write a program that asks user for three type of inputs,
+    
         1. print: if user enter print then it should print all countries with their population in this format,
             ```
             china==>143
